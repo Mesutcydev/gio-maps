@@ -20,7 +20,7 @@ SHA-256 checksums). The app verifies every file before installing it. The `catal
 
 Regions live in [`regions/`](regions): Türkiye and its cities (İstanbul, Ankara, İzmir, Antalya, Bursa,
 Kapadokya, Trabzon, Bodrum, Konya) and world cities (London, Paris, Berlin, Rome, Barcelona, Amsterdam, Lisbon,
-Athens, New York, Tokyo, Dubai, Seoul).
+Athens, New York, Tokyo, Dubai, Seoul) and Egypt (all of Egypt, Cairo).
 
 To build: Actions › Build region packs › Run workflow, with region ids (`istanbul,ankara`) or `all`.
 
