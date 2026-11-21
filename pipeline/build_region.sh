@@ -34,7 +34,7 @@ WORK="$OUT/work"
 mkdir -p "$WORK"
 
 echo "== source extract"
-curl -fL --retry 3 -o "$WORK/source.osm.pbf" "$PBF"
+curl -fL --retry 8 --retry-delay 30 --retry-all-errors --retry-connrefused -o "$WORK/source.osm.pbf" "$PBF"
 if [ "$CLIP" = True ]; then
   osmium extract -b "$BBOX" --strategy=smart --overwrite -o "$WORK/region.osm.pbf" "$WORK/source.osm.pbf"
 else
