@@ -1,10 +1,10 @@
-# Kompaso privacy policy
+# Gio privacy policy
 
 Last updated: 21 November 2026
 
-Kompaso is built to work offline. The developer does not collect, store or sell any personal data.
+Gio is built to work offline. The developer does not collect, store or sell any personal data.
 
-**No account, no tracking, no ads.** Kompaso has no sign-in, no analytics, no advertising and no third-party
+**No account, no tracking, no ads.** Gio has no sign-in, no analytics, no advertising and no third-party
 tracking SDKs.
 
 **Location.** Your location is used on your iPhone to show your position and guide you. It is not sent to the
@@ -24,6 +24,6 @@ API keys are stored only in your iPhone's Keychain. The developer never receives
 **Map downloads.** Region packs are downloaded from GitHub (this repository). GitHub may log technical data such
 as your IP address under its own privacy statement. Downloaded maps are stored only on your iPhone.
 
-**Children.** Kompaso does not knowingly collect data from anyone, including children.
+**Children.** Gio does not knowingly collect data from anyone, including children.
 
-**Contact.** Questions about privacy: [open an issue](https://github.com/Mesutcydev/kompaso-maps/issues).
+**Contact.** Questions about privacy: [open an issue](https://github.com/Mesutcydev/gio-maps/issues).

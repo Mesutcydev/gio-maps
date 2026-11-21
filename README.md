@@ -1,13 +1,13 @@
-# Kompaso
+# Gio
 
-Kompaso is an offline map and navigation app for iPhone with an on-device AI assistant. Maps, turn-by-turn
+Gio is an offline map and navigation app for iPhone with an on-device AI assistant. Maps, turn-by-turn
 routing, place search and the assistant all run on the phone, with no account and no connection needed.
 
-This repository hosts Kompaso's downloadable offline region packs and the pipeline that builds them.
+This repository hosts Gio's downloadable offline region packs and the pipeline that builds them.
 
 ## Support
 
-Questions, bugs or a city you'd like added: [open an issue](https://github.com/Mesutcydev/kompaso-maps/issues).
+Questions, bugs or a city you'd like added: [open an issue](https://github.com/Mesutcydev/gio-maps/issues).
 
 Privacy: see [PRIVACY.md](PRIVACY.md).
 

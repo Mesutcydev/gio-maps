@@ -74,7 +74,7 @@ jobs:
           gh release delete "$TAG" --yes --cleanup-tag || true
           gh release create "$TAG" out/basemap.pmtiles out/valhalla_tiles.tar out/places.sqlite out/pack.json \
             --title "$ID $VERSION" \
-            --notes "Kompaso offline pack $ID, built $VERSION. Map data © OpenStreetMap contributors (ODbL)."
+            --notes "Gio offline pack $ID, built $VERSION. Map data © OpenStreetMap contributors (ODbL)."
 
   catalog:
     needs: build
@@ -89,5 +89,5 @@ jobs:
         run: |
           python3 scripts/catalog.py "$GITHUB_REPOSITORY" catalog.json
           cat catalog.json
-          gh release view catalog >/dev/null 2>&1 || gh release create catalog --title "Catalog" --notes "Index of the latest Kompaso offline packs." --latest=false
+          gh release view catalog >/dev/null 2>&1 || gh release create catalog --title "Catalog" --notes "Index of the latest Gio offline packs." --latest=false
           gh release upload catalog catalog.json --clobber
